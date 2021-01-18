@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body>
+    <nav class="">
+      <div class="container mainHeader">
+        <div class="ml-5 d-flex flex-column align-content-center text-white">
+          <h3 class="mt-5">SISTEMA DE INFORMAÇÃO DE AGRAVOS DE NOTIFICAÇÃO COMPULSÓRIA – SINAN</h3>
+
+        </div>
+      </div>
+    </nav>
+    <section class="mainPanel px-3">
+      <div>
+        <div class="ml-5 d-flex">
+          <h4 class="panel-title">Antes de iniciarmos as atividades avaliativas, vamos relembrar alguns conceitos em
+            um jogo? A seguir, serão apresentados conceitos com lacunas em branco. Relacione-
+            os às palavras ou siglas correspondentes.</h4>
+        </div>
+        <hr class="h-line" />
+        <div class="ml-5 score-panel">
+          <span class="ncards-panel"
+            >Palavras:<span class="ml-2" id="number-card">10</span>/10</span
+          >
+          <span class="score"
+            >Acertos: <span class="ml-2" id="actual-score">0</span>/10</span
+          >
+        </div>
+      </div>
+      <section class="ml-4 mt-5 d-flex flex-wrap">
+        <section class="titulos col-3">
+          <div class="title-card" draggable="true" name="01">
+            <span>
+              VIGILÂNCIA
+            </span>
+          </div>
+          <div class="title-card" draggable="true" name="02">
+            <span>
+              EPIDEMIOLÓGICA
+            </span>
+          </div>
+          <div class="title-card" draggable="true" name="03">
+            <span>
+              COMPULSÓRIA
+            </span>
+          </div>
+          <div class="title-card" draggable="true" name="04">
+            <span>
+              COMUNICAÇÃO
+            </span>
+          </div>
+          <div class="title-card" draggable="true" name="05">
+            <span>
+              SINAN
+            </span>
+          </div>
+          <div class="title-card" draggable="true" name="06">
+            <span>
+              NEGATIVA
+            </span>
+          </div>
+          <div class="title-card" draggable="true" name="07">
+            <span>
+              IMEDIATA
+            </span>
+          </div>
+          <div class="title-card" draggable="true" name="08">
+            <span>
+              SMS
+            </span>
+          </div>
+          <div class="title-card" draggable="true" name="09">
+            <span>
+              INFORMAÇÃO
+            </span>
+          </div>
+          <div class="title-card" draggable="true" name="10">
+            <span>
+              QUALIDADE
+            </span>
+          </div>
+        </section>
+        <div class="v-line"></div>
+        <section
+          class="conteudos d-flex flex-wrap justify-content-between col-7"
+        >
+          <div class="card-conteudo ml-2 mr-2 mb-2 col">
+            <span>
+              A notificação ___________ é a comunicação obrigatória à
+              autoridade de saúde, realizada pelos médicos, profissionais de
+              saúde ou responsáveis pelos estabelecimentos de saúde, públicos
+              ou privados, sobre a ocorrência de suspeita ou confirmação de
+              doença, agravo ou evento de saúde pública, descritos no anexo,
+              podendo ser imediata ou semanal.
+            </span>
+            <div class="empty" name="03">
+              <span id="tip03">Arraste aqui</span>
+            </div>
+          </div>
+
+          <div class="card-conteudo ml-2 mr-2 mb-2 col">
+            <span>
+              A __________ em saúde abrange a vigilância e o controle de
+              doenças e agravos transmissíveis e não transmissíveis, a vigilância
+              ambiental em saúde, a vigilância sanitária, a vigilância da saúde do
+              trabalhador e a vigilância da situação de saúde.
+            </span>
+            <div class="empty" name="01">
+              <span id="tip01" class="">Arraste aqui</span>
+            </div>
+          </div>
+
+          <div class="card-conteudo ml-2 mr-2 mb-2 mt-2 col">
+            <span>
+              A Vigilância ___________ é responsável pela análise do processo
+              saúde-doença individual e coletiva, bem como dos fatores
+              determinantes e condicionantes desse processo, a fim de propor
+              medidas para controle, minimização, proteção de doenças e
+              promoção da saúde.
+            </span>
+            <div class="empty" name="02">
+              <span id="tip02">Arraste aqui</span>
+            </div>
+          </div>
+
+          <div class="card-conteudo ml-2 mr-2 mb-2 mt-2 col">
+            <span>
+              A notificação ______ é a comunicação semanal realizada por
+              responsável pelo estabelecimento de saúde à autoridade de saúde,
+              informando que na semana epidemiológica não foi identificada
+              nenhuma doença, agravo ou evento de saúde pública constante da Lista de Notificação Compulsória.
+            </span>
+            <div class="empty" name="06">
+              <span id="tip06">Arraste aqui</span>
+            </div>
+          </div>
+
+          <div class="card-conteudo ml-2 mr-2 mb-2 mt-2 col">
+            <span>
+              A ______ pode ser realizada à autoridade de saúde por qualquer
+cidadão que dela tenha conhecimento.
+            </span>
+            <div class="empty" name="04">
+              <span id="tip04">Arraste aqui</span>
+            </div>
+          </div>
+          <div class="card-conteudo ml-2 mr-2 mb-2 mt-2 col">
+            <span>
+              _______ é um sistema de informação que se enquadra no
+              arcabouço da Vigilância Epidemiológica e baseia-se nos dados e
+              nas informações ofertadas por esse setor.
+            </span>
+            <div class="empty" name="05">
+              <span id="tip05">Arraste aqui</span>
+            </div>
+          </div>
+
+          <div class="card-conteudo ml-2 mr-2 mb-2 mt-2 col">
+            <span>
+              O cumprimento das funções de Vigilância Epidemiológica depende
+              da disponibilidade de dados que sirvam para subsidiar o processo
+              de produção de __________.
+            </span>
+            <div class="empty" name="09">
+              <span id="tip09">Arraste aqui</span>
+            </div>
+          </div>
+
+          <div class="card-conteudo ml-2 mr-2 mb-2 mt-2 col">
+            <span>
+              A notificação compulsória ________ é realizada em até 24 horas, a
+              partir do conhecimento da ocorrência de doença, agravo ou evento
+              de saúde pública, pelo meio de comunicação mais rápido
+              disponível.
+            </span>
+            <div class="empty" name="07">
+              <span id="tip07">Arraste aqui</span>
+            </div>
+          </div>
+
+          <div class="card-conteudo ml-2 mr-2 mb-2 mt-2 col">
+            <span>
+              A notificação compulsória semanal será feita inicialmente à
+________.
+            </span>
+            <div class="empty" name="08">
+              <span id="tip08">Arraste aqui</span>
+            </div>
+          </div>
+
+          <div class="card-conteudo ml-2 mr-2 mb-2 col">
+            <span>
+              Uma boa coleta de dados, com treinamentos de pessoal,
+              equipamentos e instrumentos adequados prezam pela __________
+              na inserção dos dados nos sistemas de informação.
+            </span>
+            <div class="empty" name="10">
+              <span id="tip03">Arraste aqui</span>
+            </div>
+          </div>
+
+          <div class="card-conteudo ml-2 mr-2 mb-2 mt-2 col">
+            <span></span>
+          </div>
+        </section>
+      </section>
+    </section>
+    <div class="modal" tabindex="-1" role="dialog" id="myModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Você completou!</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+              onclick="close();"
+              id="close"
+            >
+              <span aria-hidden="false">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+              onclick="close();"
+              id="close1"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" tabindex="-2" role="dialog" id="myModal-again">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Quase lá!</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+              onclick="close_again();"
+              id="close-again"
+            >
+              <span aria-hidden="false">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Você ainda não acertou todas..
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+              onclick="close_again();"
+              id="close1-again"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/jquery/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById("close").onclick = close;
+    document.getElementById("close1").onclick = close;
+    function close() {
+      const modal = document.querySelector("#myModal");
+      modal.remove("show");
+      modal.setAttribute("aria-hidden", "true");
+      modal.setAttribute("style", "display: none");
+      location.reload();
+    }
+    document.getElementById("close-again").onclick = close_again;
+    document.getElementById("close1-again").onclick = close_again;
+    function close_again() {
+      const modal = document.querySelector("#myModal-again");
+      modal.className = "modal";
+      modal.setAttribute("aria-hidden", "true");
+      modal.setAttribute("style", "display: none");
+    }
+  </script>
+</html>
